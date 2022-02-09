@@ -4,16 +4,17 @@ Criação de um sistema que permite ao proprietário do imóvel residencial disp
 
 ## Integrantes
 
-ANDRÉ SATHLER
-BRUNO VIEIRA CARDOSO
-GUSTAVO RIEGERT
-NICOLÁS MELO CHABOT
-YURI LUCAS
+* ANDRÉ SATHLER
+* BRUNO VIEIRA CARDOSO
+* GUSTAVO RIEGERT
+* NICOLÁS MELO CHABOT
+* YURI LUCAS
 
 
 ## Professor
 
-Hugo Bastos de Paula
+* Hugo Bastos de Paula
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
