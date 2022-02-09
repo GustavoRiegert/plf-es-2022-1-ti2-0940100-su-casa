@@ -1,4 +1,4 @@
-# Nome do projeto
+# Su Casa
 
 Criação de um sistema que permite ao proprietário do imóvel residencial disponibilizar sua casa para agendamento de um eventos de terceiros com agendamento de staff automático.
 
