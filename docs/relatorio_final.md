@@ -29,7 +29,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 **Resumo**
 
-O sistema é uma opção interessante para proprietários de imóveis conseguirem uma nova fonte de receita. Portanto, esse sistema pode ser replicado para diversas outras residências, permitindo assim a geração de receita para outros proprietários.
+Este trabalho consiste na criação de um sistema que permita ao usuário realizar a reserva de um local para a realização de um evento e contratar o staff que irá trabalhar na ocasião. O objetivo do sistema é permitir ao usuário mais facilidade na organização de eventos, além de gerar receita para o proprietário do local e mais oportunidades para o staff contratado.
 
 ---
 
