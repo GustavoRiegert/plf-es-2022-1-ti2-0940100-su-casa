@@ -9,7 +9,7 @@
 
 **Nicolás Melo Chabot, email do aluno 4**
 
-**Yuri Lucas, email do aluno 5**
+**Yuri Lucas, ylsferreira@sga.pucminas.br**
 
 ---
 
