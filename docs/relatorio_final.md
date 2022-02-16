@@ -1,7 +1,7 @@
 # SU CASA
 
 
-**André Sathleer, email do aluno 1**
+**André Sathleer, aamsathler@sga.pucminas.br**
 
 **Bruno Vieira Cardoso, brunogrupo@gmail.com**
 
