@@ -209,7 +209,7 @@ Dos artefatos (armazenado do repositório);
 
 Da apresentação final (armazenado no repositório);
 
-Do vídeo de apresentação (armazenado no repositório).
+Do vídeo de apresentação (armazenado no repositório) .
 
 
 
