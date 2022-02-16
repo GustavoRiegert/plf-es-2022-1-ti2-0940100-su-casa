@@ -45,7 +45,7 @@ Residências são consideradas ativos na classificação contábil. Contudo, tra
 
 A primeira coisa que vem à mente seria disponibilizar o imóvel para locação – integral ou de alguns cômodos. Entretanto, quando o proprietário reside no imóvel, essa opção se torna, às vezes, inconveniente.
 
-O proprietário do imóvel que inspirou a criação da aplicação, identificou que as despesas envolvendo sua casa custavam anualmente aproximadamente R$ 30 mil. A partir disso, ele começou a procurar maneiras para reduzir as despesas. Contudo, a principal delas era compulsória: o IPTU. As demais eram manutenções necessárias. Desta forma, não restou muito para se fazer em relação as despesas.
+O proprietário do imóvel que inspirou a criação da aplicação, identificou que as despesas envolvendo sua casa custavam anualmente aproximadamente R$ 30 mil. A partir disso, ele começou a procurar maneiras para reduzir as despesas. Contudo, a principal delas era compulsória: o IPTU - 1% do valor venal do imóvel, conforme consta na tabela III da Lei nº 5.641/1989. As demais eram manutenções necessárias. Desta forma, não restou muito para se fazer em relação as despesas.
 
 Assim, a única solução viável seria a geração de receitas – com uma ressalva: ele não deixaria de morar em sua casa. Cogitou alugar alguns cômodos. Porém, a ideia de se ter por vários dias algumas pessoas dentro de sua casa, o fizeram desistir. Cogitou, em seguida, alugar seu imóvel para temporada. Contudo, isso feria sua regra inicial, pois por alguns dias não poderia morar em sua casa. Além disso, a ideia de desconhecidos presentes por vários dias em sua residência sem a sua presença, lhe causava desconforto.
 
@@ -56,6 +56,9 @@ Contudo, havia uma ressalva: ele gostaria de ter algum controle sobre as pessoas
 Logo, o sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
 
 Através do Su Casa, o proprietário rentabiliza um ativo que antes apenas gerava despesa, o staff tem mais oportunidades de trabalho e o promotor do evento ganha tempo e facilidade na realização da sua festa.
+
+Referência Bibliográfica:
+BELO HORIZONTE. Lei Municipal n. 5.641, de 22 de dezembro de 1989.
 
     1.2 Problema
 
