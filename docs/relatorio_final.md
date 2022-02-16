@@ -51,24 +51,13 @@ Assim, a única solução viável seria a geração de receitas – com uma ress
 
 Por fim, surgiu a ideia de alugar a parte externa de sua casa para eventos conforme sua conveniência. Desta forma, ele receberia por este aluguel, não precisaria deixar sua residência, preservaria sua intimidade, estaria presente no local e não teria pessoas por mais de um dia ali.
 
-Contudo, havia uma ressalva: ele gostaria de ter algum controle sobre as pessoas que trabalhariam nos eventos. Sabendo que organizar eventos sempre demandou muita energia de quem os promove, principalmente em razão da gama de fornecedores que envolvem a atividade, ele identificou uma oportunidade que solucionaria essa questão: a equipe seria cadastrada previamente no sistema. Assim, ele teria o controle de quem estaria trabalhando em sua casa e o promotor de eventos teria a facilidade de não ter que buscar mão de obra para a realização do seu evento.
-
-Logo, o sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
-
-Através do Su Casa, o proprietário rentabiliza um ativo que antes apenas gerava despesa, o staff tem mais oportunidades de trabalho e o promotor do evento ganha tempo e facilidade na realização da sua festa.
-
-Referência Bibliográfica:
-BELO HORIZONTE. Lei Municipal n. 5.641, de 22 de dezembro de 1989.
-
     1.2 Problema
 
-Promover um evento sempre demandou muito gasto e tempo procurando equipe e local, com a chegada da pandemia em 2020 e sua flexibilização em 2022 esse cénario piorou devido ao aumento da procura e a oferta mais cara. Assim a equipe por tras do su casa identificou um dos problemas sendo: "Locação de espaço e staff de forma rápida e permitindo contato direto entre usúario e locatário". Ou seja o usúario tem dificuldade de encontrar local e staff para promover o evento e o staff tem dificuldade em encontrar emprego em eventos devido ao elevado custo cobrado em casa de festas que cedem o salão com valor pre definido. 
-
-Além disso ser o dono de um local exige um gasto alto com despesas de IPTU, contas de água, luz, internet. Assim vimos também o imbróglio das despesas elevadas e a fonte de renda enxuta, necessitando de uma renda extra.
+O proprietário gostaria de ter algum controle sobre as pessoas que trabalhariam nos eventos. Sabendo que organizar eventos sempre demandou muita energia de quem os promove, principalmente em razão da gama de fornecedores que envolvem a atividade, ele identificou uma oportunidade que solucionaria essa questão: a equipe seria cadastrada previamente no sistema. Assim, ele teria o controle de quem estaria trabalhando em sua casa e o promotor de eventos teria a facilidade de não ter que buscar mão de obra para a realização do seu evento.
 
     1.3 Objetivo geral
     
-Criar um sistema que potencialize ao máximo a locação do local e geração de receita para o proprietário.
+Criação de sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
 
         1.3.1 Objetivos específicos
 
@@ -78,21 +67,21 @@ Oferecer ao staff um sistema user friendly para cadastro e registro de disponibi
 
     1.4 Justificativas
 
-O sistema é uma opção interessante para proprietários de imóveis conseguirem uma nova fonte de receita. Portanto, esse sistema pode ser replicado para diversas outras residências, permitindo assim a geração de receita para outros proprietários.
+Através da aplicação Su Casa, o proprietário rentabiliza um ativo que antes apenas gerava despesa, o staff tem mais oportunidades de trabalho e o promotor do evento ganha tempo e facilidade na realização da sua festa.
 
 ## 2. Participantes do processo
 
-**PESSOAS FUNDAMENTAIS**
+**Proprietário do imóvel**
 
-Proprietário do imóvel; Promotor do evento; Staff (garçons, seguranças e cozinheiras).
+Dono
 
-**PESSOAS IMPORTANTES**
+**Promotor de eventos**
 
-Vizinhos.
+Organizador
 
-**PESSOAS INFLUENCIADORAS**
+**Staff**
 
-Prefeitura de Belo Horizonte; Corpo de Bombeiros; Convidados.
+Garçons
 
 ## 3. Modelagem do processo de negócio
 
@@ -200,7 +189,7 @@ Verifique no link abaixo como devem ser as referências no padrão ABNT:
 http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 
-**[1.1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+**[1.1]** - BELO HORIZONTE. Lei Municipal n. 5.641, de 22 de dezembro de 1989.
 
 **[1.2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
 
