@@ -43,25 +43,25 @@ Esta foi a ideia que norteou a criação da aplicação Su Casa, na qual o propr
 
 >Residências são consideradas ativos na classificação contábil. Contudo, trata-se de um ativo que gera despesas recorrentes, como manutenções, tributos etc. Desta forma, o custo para se manter um imóvel é alto. Portanto, uma solução para reduzir esses impactos financeiros seria a geração de receita. Isto é, o imóvel passar a gerar receitas recorrentes para seu proprietário e não apenas despesas.
 
-A primeira coisa que vem à mente seria disponibilizar o imóvel para locação – integral ou de alguns cômodos. Entretanto, quando o proprietário reside no imóvel, essa opção se torna, às vezes, inconveniente.
+>A primeira coisa que vem à mente seria disponibilizar o imóvel para locação – integral ou de alguns cômodos. Entretanto, quando o proprietário reside no imóvel, essa opção se torna, às vezes, inconveniente.
 
-O proprietário do imóvel que inspirou a criação da aplicação, identificou que as despesas envolvendo sua casa custavam anualmente aproximadamente R$ 30 mil. A partir disso, ele começou a procurar maneiras para reduzir as despesas. Contudo, a principal delas era compulsória: o IPTU. As demais eram manutenções necessárias. Desta forma, não restou muito para se fazer em relação as despesas.
+>O proprietário do imóvel que inspirou a criação da aplicação, identificou que as despesas envolvendo sua casa custavam anualmente aproximadamente R$ 30 mil. A partir disso, ele começou a procurar maneiras para reduzir as despesas. Contudo, a principal delas era compulsória: o IPTU. As demais eram manutenções necessárias. Desta forma, não restou muito para se fazer em relação as despesas.
 
-Assim, a única solução viável seria a geração de receitas – com uma ressalva: ele não deixaria de morar em sua casa. Cogitou alugar alguns cômodos. Porém, a ideia de se ter por vários dias algumas pessoas dentro de sua casa, o fizeram desistir. Cogitou, em seguida, alugar seu imóvel para temporada. Contudo, isso feria sua regra inicial, pois por alguns dias não poderia morar em sua casa. Além disso, a ideia de desconhecidos presentes por vários dias em sua residência sem a sua presença, lhe causava desconforto.
+>Assim, a única solução viável seria a geração de receitas – com uma ressalva: ele não deixaria de morar em sua casa. Cogitou alugar alguns cômodos. Porém, a ideia de se ter por vários dias algumas pessoas dentro de sua casa, o fizeram desistir. Cogitou, em seguida, alugar seu imóvel para temporada. Contudo, isso feria sua regra inicial, pois por alguns dias não poderia morar em sua casa. Além disso, a ideia de desconhecidos presentes por vários dias em sua residência sem a sua presença, lhe causava desconforto.
 Por fim, surgiu a ideia de alugar a parte externa de sua casa para eventos conforme sua conveniência. Desta forma, ele receberia por este aluguel, não precisaria deixar sua residência, preservaria sua intimidade, estaria presente no local e não teria pessoas por mais de um dia ali.
 
-Contudo, havia uma ressalva: ele gostaria de ter algum controle sobre as pessoas que trabalhariam nos eventos. Sabendo que organizar eventos sempre demandou muita energia de quem os promove, principalmente em razão da gama de fornecedores que envolvem a atividade, ele identificou uma oportunidade que solucionaria essa questão: a equipe seria cadastrada previamente no sistema. Assim, ele teria o controle de quem estaria trabalhando em sua casa e o promotor de eventos teria a facilidade de não ter que buscar mão de obra para a realização do seu evento.
+>Contudo, havia uma ressalva: ele gostaria de ter algum controle sobre as pessoas que trabalhariam nos eventos. Sabendo que organizar eventos sempre demandou muita energia de quem os promove, principalmente em razão da gama de fornecedores que envolvem a atividade, ele identificou uma oportunidade que solucionaria essa questão: a equipe seria cadastrada previamente no sistema. Assim, ele teria o controle de quem estaria trabalhando em sua casa e o promotor de eventos teria a facilidade de não ter que buscar mão de obra para a realização do seu evento.
 
-Logo, o sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
+>Logo, o sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
 Através do Su Casa, o proprietário rentabiliza um ativo que antes apenas gerava despesa, o staff tem mais oportunidades de trabalho e o promotor do evento ganha tempo e facilidade na realização da sua festa.
 
 ## 1.2 Problema
 
 >O imóvel que inspirou a criação da aplicação gerava despesas anuais de aproximadamente R$ 30 mil. O proprietário procurou maneiras para reduzir as despesas. Contudo, constatou que a principal delas era compulsória: o IPTU. As demais eram manutenções necessárias. Portanto, a solução era gerar receita. 
 
-Desta forma, ele optou por alugar a parte externa de sua casa para a promoção de eventos conforme sua conveniência, assim, ele receberia pelos aluguéis, continuaria morando em sua residência, preservaria sua intimidade e estaria presente no local.
+>Desta forma, ele optou por alugar a parte externa de sua casa para a promoção de eventos conforme sua conveniência, assim, ele receberia pelos aluguéis, continuaria morando em sua residência, preservaria sua intimidade e estaria presente no local.
 
-Para ter controle das pessoas que trabalhariam na ocasião e, portanto, que frequentariam sua casa, o sistema possui o cadastramento prévio dos profissionais, o que também resulta em praticidade para o promotor do evento.
+>Para ter controle das pessoas que trabalhariam na ocasião e, portanto, que frequentariam sua casa, o sistema possui o cadastramento prévio dos profissionais, o que também resulta em praticidade para o promotor do evento.
 
 
 ## 1.3 Objetivo geral
@@ -72,7 +72,7 @@ Para ter controle das pessoas que trabalhariam na ocasião e, portanto, que freq
 
 >Oferecer ao promotor de evento um serviço de agendamento do local e contratação de staff de forma simples e eficiente.
 
-Oferecer ao staff um sistema user friendly para cadastro e registro de disponibilidade.
+>Oferecer ao staff um sistema user friendly para cadastro e registro de disponibilidade.
 
 ## 1.4 Justificativas
 
