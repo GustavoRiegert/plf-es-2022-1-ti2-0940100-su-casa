@@ -82,15 +82,15 @@ O sistema é uma opção interessante para proprietários de imóveis conseguire
 
 ## 2. Participantes do processo
 
-## Pessoas Fundamentais
+    Pessoas Fundamentais
 Proprietário do imóvel
 Promotor do evento
 Staff
 
-## Pessoas Importantes
+    Pessoas Importantes
 Vizinhos
 
-## Pessoas Influenciadoras
+    Pessoas Influenciadoras
 Prefeitura de Belo Horizonte
 Corpo de Bombeiros
 Convidados
