@@ -82,18 +82,21 @@ O sistema é uma opção interessante para proprietários de imóveis conseguire
 
 ## 2. Participantes do processo
 
-    Pessoas Fundamentais
-Proprietário do imóvel
-Promotor do evento
-Staff
+PESSOAS FUNDAMENTAIS
 
-    Pessoas Importantes
-Vizinhos
+Proprietário do imóvel.
+Promotor do evento.
+Staff.
 
-    Pessoas Influenciadoras
-Prefeitura de Belo Horizonte
-Corpo de Bombeiros
-Convidados
+PESSOAS IMPORTANTES
+
+Vizinhos.
+
+PESSOAS INFLUENCIADORAS
+
+Prefeitura de Belo Horizonte.
+Corpo de Bombeiros.
+Convidados.
 
 ## 3. Modelagem do processo de negócio
 
