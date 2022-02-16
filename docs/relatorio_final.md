@@ -82,7 +82,18 @@ O sistema é uma opção interessante para proprietários de imóveis conseguire
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+## Pessoas Fundamentais
+Proprietário do imóvel
+Promotor do evento
+Staff
+
+## Pessoas Importantes
+Vizinhos
+
+## Pessoas Influenciadoras
+Prefeitura de Belo Horizonte
+Corpo de Bombeiros
+Convidados
 
 ## 3. Modelagem do processo de negócio
 
