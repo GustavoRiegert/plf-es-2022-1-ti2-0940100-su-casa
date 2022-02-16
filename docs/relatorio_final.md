@@ -7,7 +7,7 @@
 
 **Gustavo Henrique Dos Santos Riegert, ghsriegert@sga.pucminas.br**
 
-**Nicolás Melo Chabot, email do aluno 4**
+**Nicolás Melo Chabot, nicochabmelo@gmail.com**
 
 **Yuri Lucas, ylsferreira@sga.pucminas.br**
 
