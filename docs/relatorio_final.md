@@ -82,15 +82,15 @@ O sistema é uma opção interessante para proprietários de imóveis conseguire
 
 ## 2. Participantes do processo
 
-  PESSOAS FUNDAMENTAIS
+**PESSOAS FUNDAMENTAIS**
 
 Proprietário do imóvel; Promotor do evento; Staff (garçons, seguranças e cozinheiras).
 
-  PESSOAS IMPORTANTES
+**PESSOAS IMPORTANTES**
 
 Vizinhos.
 
-  PESSOAS INFLUENCIADORAS
+**PESSOAS INFLUENCIADORAS**
 
 Prefeitura de Belo Horizonte; Corpo de Bombeiros; Convidados.
 
