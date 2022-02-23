@@ -57,7 +57,7 @@ O proprietário gostaria de ter algum controle sobre as pessoas que trabalhariam
 
     1.3 Objetivo geral
     
-Criação de sistema que disponibilizaria o espaço para a realização do evento, faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor e trazendo mais segurança para o proprietário.
+A Su Casa busca elaborar um sistema para que proprietários possam disponibilizar espaços em sua casa para a realização de eventos,assim garantindo uma renda extra com mais segurança, além disso o sistema faria a seleção automática do staff, com base nos profissionais cadastrados no sistema, facilitando consideravelmente a realização do evento para o promotor.
 
         1.3.1 Objetivos específicos
 
