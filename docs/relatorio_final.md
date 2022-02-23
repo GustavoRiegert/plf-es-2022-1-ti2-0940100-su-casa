@@ -61,9 +61,9 @@ A Su Casa busca elaborar um sistema para que proprietários possam disponibiliza
 
         1.3.1 Objetivos específicos
 
-Oferecer ao promotor de evento um serviço de agendamento do local e contratação de staff de forma simples e eficiente.
-
-Oferecer ao staff um sistema user friendly para cadastro e registro de disponibilidade.
+- Desenvolver um sistema de comunicação entre organizador e prestador de serviço para que o evento seja planejado, negociado e organizado de maneira agradável, econômica e segura
+- Entregar ao organizador ofertas de eventos em locais e com staff mais baratos, privados e econômicos do que as ofertadas no mercado 
+-Desenvolver a modelagem de processos de negócios, focando em organização de eventos, na interatividade entre os usuários, staff e locatário.
 
     1.4 Justificativas
 
