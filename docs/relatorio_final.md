@@ -81,7 +81,7 @@ Organizador
 
 **Staff**
 
-Garçons
+Garçons, auxiliar de serviço, seguranças
 
 ## 3. Modelagem do processo de negócio
 
