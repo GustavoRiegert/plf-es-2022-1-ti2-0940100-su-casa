@@ -91,7 +91,7 @@ Apresente uma descrição textual de como os sistemas atuais resolvem o problema
 
 ## 3.2. Descrição Geral da proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta consiste na criação de um sistema que permita ao usuário realizar a reserva de um local para a realização de um evento e contratar o staff que irá trabalhar na ocasião, permitindo ao usuário mais facilidade na organização de eventos, a geração de receita para o proprietário do local, além de mais oportunidades para o staff contratado.
 
 ## 3.3. Modelagem dos Processos
 
