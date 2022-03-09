@@ -87,24 +87,24 @@ Garçons, auxiliar de serviço, seguranças
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+Proprietários de residência com estrutura para realizar eventos, hoje obtêm receita alugando seus imóveis integralmente para temporada ou através do aluguel de cômodos – logo, disponibilizando parcialmente a parte interna de sua residência, através de sites como Airbnb. Portanto, esses proprietários, em regra, acabam deixando suas residências temporariamente quando as alugam integralmente, necessitando, desta forma, de uma acomodação temporária para sua família, ou, então, perdem parte de sua privacidade e intimidade quando alugam parcialmente cômodos de seus imóveis. Além disso, muitas vezes os locatários levam prestadores de serviços para o imóvel sem apresentar relação prévia desses profissionais. Logo, o proprietário não sabe quem são as pessoas que estão trabalhando dentro de sua residência.
+Sob a ótica da realização de eventos, em regra, atualmente eles são promovidos de duas maneiras definidas como informal e formal. A maneira informal se dá através da realização do evento direta pelo próprio anfitrião. Portanto, é ele quem contrata o local da festa e o staff para, em geral, reunir alguns poucos convidados. O evento classificado como formal, tem como característica a contratação de um profissional especializado para sua organização, também conhecido como cerimonial. Normalmente, trata-se de ocasiões que envolvem um bom número de convidados ou celebrações mais contundentes, como casamentos ou formaturas. Desta forma, tanto o anfitrião quanto o cerimonial, ao promoverem algum evento, precisam contratar fornecedores um a um – ressalvadas as grandes empresas de eventos que já oferecem o local com buffet e staff definidos. Assim, eventos que não contam com a contratação de grandes empresas de eventos, requerem de seus organizadores não apenas a definição de local, mas também definições e contratações independentes do tipo e quantidade de alimentação e bebidas e do staff para trabalhar no dia da celebração.
 
 ## 3.2. Descrição Geral da proposta
 
 A proposta consiste na criação de um sistema que permita ao usuário realizar a reserva de um local para a realização de um evento e contratar o staff que irá trabalhar na ocasião, permitindo ao usuário mais facilidade na organização de eventos, a geração de receita para o proprietário do local, além de mais oportunidades para o staff contratado.
 
-####Identificação
+*Identificação*
 
 Criar um sistema que permita o agendamento de um evento em um local determinado, permitindo ao promotor do evento a definição do tipo de menu a ser servido, já apresentando o staff adequado responsável.
 
-####Descrição geral dos processos
+*Descrição geral dos processos*
 
 O proprietário do imóvel realizará o cadastro da sua residência no aplicativo e registrará os dias disponíveis para realização de eventos e seus respectivos valores.
 Cozinheiras, restaurantes e buffets especializados realizarão o cadastro dos menus que oferecem e seus respectivos preços com base no número de convidados e datas.
 Garçons cadastrarão, além de seu perfil, sua disponibilidade e preço por hora de trabalho e serão alocados aleatoriamente, com base no menor custo, a partir da definição do menu e número de convidados.
 Caberá ao proprietário do imóvel aprovar os perfis cadastrados de garçons, cozinheiras, restaurantes e buffets.
 Por fim, restará ao usuário final, o promotor do evento, seja ele o anfitrião ou o cerimonial, realizar seu cadastro, promover pesquisas e selecionar a data do evento no local, o menu e o número de convidados apenas.
-
 
 ## 3.3. Modelagem dos Processos
 
