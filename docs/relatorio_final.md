@@ -93,6 +93,19 @@ Apresente uma descrição textual de como os sistemas atuais resolvem o problema
 
 A proposta consiste na criação de um sistema que permita ao usuário realizar a reserva de um local para a realização de um evento e contratar o staff que irá trabalhar na ocasião, permitindo ao usuário mais facilidade na organização de eventos, a geração de receita para o proprietário do local, além de mais oportunidades para o staff contratado.
 
+####Identificação
+
+Criar um sistema que permita o agendamento de um evento em um local determinado, permitindo ao promotor do evento a definição do tipo de menu a ser servido, já apresentando o staff adequado responsável.
+
+####Descrição geral dos processos
+
+O proprietário do imóvel realizará o cadastro da sua residência no aplicativo e registrará os dias disponíveis para realização de eventos e seus respectivos valores.
+Cozinheiras, restaurantes e buffets especializados realizarão o cadastro dos menus que oferecem e seus respectivos preços com base no número de convidados e datas.
+Garçons cadastrarão, além de seu perfil, sua disponibilidade e preço por hora de trabalho e serão alocados aleatoriamente, com base no menor custo, a partir da definição do menu e número de convidados.
+Caberá ao proprietário do imóvel aprovar os perfis cadastrados de garçons, cozinheiras, restaurantes e buffets.
+Por fim, restará ao usuário final, o promotor do evento, seja ele o anfitrião ou o cerimonial, realizar seu cadastro, promover pesquisas e selecionar a data do evento no local, o menu e o número de convidados apenas.
+
+
 ## 3.3. Modelagem dos Processos
 
 ### 3.3.1 Processo 1 – NOME DO PROCESSO
