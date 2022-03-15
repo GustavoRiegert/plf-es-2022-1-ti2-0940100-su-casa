@@ -125,8 +125,6 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o processo de planejamento será mais rápido e fácil
 ![Modelo do processo do serviço de atendimento](imagens/ServiçoDeAgendamento_TIS2.drawio.png "Serviço de atendimento.")
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
-
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
