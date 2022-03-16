@@ -73,15 +73,15 @@ Através da aplicação Su Casa, o proprietário rentabiliza um ativo que antes 
 
 **Proprietário do imóvel**
 
-Dono
+O proprietário do imóvel é o responsável pelo aplicativo, afinal se trata inicialmente de apenas um imóvel disponível para a realização de eventos.
 
 **Promotor de eventos**
 
-Organizador
+O promotor de eventos é o usuário que irá realizar o agendamento do espaço e selecionar o tipo de evento que irá realizar na ocasião. Portanto, trata-se do organizador do evento.
 
 **Staff**
 
-Garçons, auxiliar de serviço, seguranças
+O staff é formado por usuários que irão prestar serviço no evento. Desta forma, refere-se a garçons, restaurantes, buffets, cozinheiras, músicos etc.
 
 ## 3. Modelagem do processo de negócio
 
