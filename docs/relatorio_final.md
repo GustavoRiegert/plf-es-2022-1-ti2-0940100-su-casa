@@ -125,6 +125,13 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o processo de planejamento será mais rápido e fácil
 ![Modelo do processo do serviço de atendimento](imagens/ServiçoDeAgendamento_TIS2.drawio.png "Serviço de atendimento.")
 
+### 3.3.6 Processo 6 – CANCELAMENTO DO AGENDAMENTO
+
+Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
+
+![image](https://user-images.githubusercontent.com/68079428/158619810-6241fb2e-0d8c-487e-bcf9-b34a933157c2.png)
+
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
