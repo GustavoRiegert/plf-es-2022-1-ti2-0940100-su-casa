@@ -123,12 +123,12 @@ Através desse processo de cadastramento do staff é que ocorre a inserção dos
 
 ![image](https://user-images.githubusercontent.com/68079428/159726036-bd7558b6-6e89-48aa-b5a5-7fccfdfb8045.png)
 
-### 3.3.5 Processo 5 – SERVIÇO DE AGENDAMENTO
+### 3.3.4 Processo 5 – SERVIÇO DE AGENDAMENTO
 
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o evento e o staff ficaram reservados previamente até que seja realizado ou o usuário(locatário/promotor) realizem o cancelamento.
 ![Modelo do processo do serviço de atendimento](imagens/ServiçoDeAgendamento_TIS2.drawio.png "Serviço de atendimento.")
 
-### 3.3.6 Processo 6 – CANCELAMENTO DO AGENDAMENTO
+### 3.3.5 Processo 6 – CANCELAMENTO DO AGENDAMENTO
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
