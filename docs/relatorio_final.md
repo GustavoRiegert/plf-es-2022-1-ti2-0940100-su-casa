@@ -116,6 +116,13 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+
+### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF
+
+Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
+
+![image](https://user-images.githubusercontent.com/68079428/159726036-bd7558b6-6e89-48aa-b5a5-7fccfdfb8045.png)
+
 ### 3.3.5 Processo 5 – SERVIÇO DE AGENDAMENTO
 
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o evento e o staff ficaram reservados previamente até que seja realizado ou o usuário(locatário/promotor) realizem o cancelamento.
