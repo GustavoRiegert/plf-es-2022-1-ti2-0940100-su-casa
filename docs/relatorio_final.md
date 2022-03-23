@@ -134,6 +134,12 @@ Através desse processo o usuário Promotor de Eventos conseguirá cancelar o ev
 
 ![image](https://user-images.githubusercontent.com/68079428/158619810-6241fb2e-0d8c-487e-bcf9-b34a933157c2.png)
 
+### 3.3.5 Processo 7 – AVALIAÇÃO DO SISTEMA
+
+A avaliação do sistema é realizada pelo usuário, no caso, promotor de eventos. Ela pode ser feita a partir da realização do login pelo usuário.
+
+![image](docs/imagens/Avaliação_TIS.jpg)
+
 
 ## 4. Projeto da Solução
 
