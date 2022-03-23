@@ -138,7 +138,7 @@ Através desse processo o usuário Promotor de Eventos conseguirá cancelar o ev
 
 A avaliação do sistema é realizada pelo usuário, no caso, promotor de eventos. Ela pode ser feita a partir da realização do login pelo usuário.
 
-![image](docs/imagens/Avaliação_TIS.jpg)
+![image](idocs/imagens/Avaliação_TIS.jpg)
 
 
 ## 4. Projeto da Solução
