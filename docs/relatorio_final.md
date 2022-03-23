@@ -110,25 +110,18 @@ Através desse processo o usuário poderá ser cadastrado, assim que o sistema g
 
 ![ModelagemCadastroPessoa drawio](https://user-images.githubusercontent.com/82840508/159781709-e2bbf975-4b9a-423e-9690-2c8de256ddee.png)
 
-
-### 3.3.2 Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Exemplo de um Modelo BPMN do PROCESSO 2](idocs/imagens/ModelagemCadastroPessoa.drawio.png)
-
-### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF
+### 3.3.2 Processo 3 – CADASTRAMENTO DO STAFF
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
 ![](https://user-images.githubusercontent.com/68079428/159726036-bd7558b6-6e89-48aa-b5a5-7fccfdfb8045.png)
 
-### 3.3.4 Processo 5 – SERVIÇO DE AGENDAMENTO
+### 3.3.3 Processo 5 – SERVIÇO DE AGENDAMENTO
 
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o evento e o staff ficaram reservados previamente até que seja realizado ou o usuário(locatário/promotor) realizem o cancelamento.
 ![Modelo do processo do serviço de atendimento](imagens/ServiçoDeAgendamento_TIS2.drawio.png "Serviço de atendimento.")
 
-### 3.3.5 Processo 6 – CANCELAMENTO DO AGENDAMENTO
+### 3.3.4 Processo 6 – CANCELAMENTO DO AGENDAMENTO
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
