@@ -108,7 +108,7 @@ Por fim, restará ao usuário final, o promotor do evento, seja ele o anfitrião
 
 Através desse processo o usuário poderá ser cadastrado, assim que o sistema garante que o usuário não está passando informações já disponíveis no banco de dados, o usuário é indagado sobre qual tipo de pessoa ele será no sistema(Promoter ou Locatário). O promoter neste momento irá apenas ser cadastrado e assim finalizando seu processo, enquanto o locatário irá passar imediatamente para o processo da casa decorrente que nosso sistema terá inicialmente apenas um locatário e um local apenas, após o processos de cadastramento da residência o processo de cadastramento de usuário é finalizado.
 
-![imagem](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/54710d4cfdca1173c25a16d149f989e81129ad02/docs/imagens/ModelagemCadastroPessoa.drawio.png)
+![imagem]![ModelagemCadastroPessoa drawio](https://user-images.githubusercontent.com/82840508/159781709-e2bbf975-4b9a-423e-9690-2c8de256ddee.png)
 
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
