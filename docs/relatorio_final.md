@@ -121,7 +121,7 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
-![image](https://user-images.githubusercontent.com/68079428/159726036-bd7558b6-6e89-48aa-b5a5-7fccfdfb8045.png)
+![](https://user-images.githubusercontent.com/68079428/159726036-bd7558b6-6e89-48aa-b5a5-7fccfdfb8045.png)
 
 ### 3.3.4 Processo 5 – SERVIÇO DE AGENDAMENTO
 
