@@ -115,7 +115,7 @@ Através desse processo o usuário poderá ser cadastrado, assim que o sistema g
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+![Exemplo de um Modelo BPMN do PROCESSO 2](idocs/imagens/ModelagemCadastroPessoa.drawio.png)
 
 ### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF
 
