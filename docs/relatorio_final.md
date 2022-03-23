@@ -118,7 +118,7 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 ### 3.3.5 Processo 5 – SERVIÇO DE AGENDAMENTO
 
-No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o processo de planejamento será mais rápido e fácil
+No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o evento e o staff ficaram reservados previamente até que seja realizado ou o usuário(locatário/promotor) realizem o cancelamento.
 ![Modelo do processo do serviço de atendimento](imagens/ServiçoDeAgendamento_TIS2.drawio.png "Serviço de atendimento.")
 
 ### 3.3.6 Processo 6 – CANCELAMENTO DO AGENDAMENTO
