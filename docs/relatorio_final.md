@@ -126,7 +126,8 @@ No serviço de agendamento o usuário vai negociar diretamente com os personagen
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
-![image](https://user-images.githubusercontent.com/68079428/158619810-6241fb2e-0d8c-487e-bcf9-b34a933157c2.png)
+![image](https://user-images.githubusercontent.com/68079428/160904860-c7847352-02df-4f05-aeae-892a4d120f11.png)
+
 
 ### 3.3.5 Processo 7 – AVALIAÇÃO DO SISTEMA
 
