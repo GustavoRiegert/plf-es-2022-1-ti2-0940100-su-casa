@@ -114,8 +114,7 @@ Através desse processo o usuário poderá ser cadastrado, assim que o sistema g
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
-![image](https://user-images.githubusercontent.com/68079428/160904593-98f9014e-ebce-4784-97d8-862740197f57.png)
-
+![CADSTAFF](https://user-images.githubusercontent.com/68079428/160905314-405378b7-71b8-47ce-80f5-e07dfd2b51b3.png)
 
 ### 3.3.3 Processo 5 – SERVIÇO DE AGENDAMENTO
 
@@ -126,7 +125,7 @@ No serviço de agendamento o usuário vai negociar diretamente com os personagen
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
-![image](https://user-images.githubusercontent.com/68079428/160904860-c7847352-02df-4f05-aeae-892a4d120f11.png)
+![CANCELAMENTO](https://user-images.githubusercontent.com/68079428/160905422-3a3cc908-e12b-42cf-9fb3-5ab0dfe10271.png)
 
 
 ### 3.3.5 Processo 7 – AVALIAÇÃO DO SISTEMA
