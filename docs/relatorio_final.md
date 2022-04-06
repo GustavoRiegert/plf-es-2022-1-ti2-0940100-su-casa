@@ -187,6 +187,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 **Preenchimento de dados**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | [Cadastrar Staff] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link] |  |  |
 |    |    |     |
 | E-mail | Caixa de Texto | formato de e-mail |  |
@@ -254,7 +255,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 **Solicitação de Cancelamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
-|    |    |     |
+| --- | --- | --- | --- |
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 | Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
 | Salvar pedido de cancelamento | Botão | alt: "Confirmar cancelamento" |   |
