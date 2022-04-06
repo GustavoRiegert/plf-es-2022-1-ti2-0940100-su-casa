@@ -178,7 +178,30 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+|    |    |     | 
+
+#### Processo 6 – Avaliação do sistema
+
+**buscar dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| buscar dados | Data |  |  |
+|    |    |     | 
+
+**avaliar**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| requerir nota de avaliação | Seleção única | valores de 0 a 5 | 0 |
+|    |    |     | 
+
+**enviar avaliação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| enviar avaliação para o sistema | Data |  |  |
+|    |    |     | 
 
 ### 4.2. Tecnologias
 
