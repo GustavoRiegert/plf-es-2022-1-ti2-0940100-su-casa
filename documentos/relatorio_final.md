@@ -169,21 +169,25 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     |
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – Cadastro de residência
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
+**Preenchimento dos dados da residência**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     | 
+| CEP | Caixa de Texto | 8 dígitos |  |
+| Estado | Caixa de Texto | Estado existente |   |
+| Cidade| Caixa de Texto | Cidade existente|   |
+| Bairro  | Caixa de Texto | Bairro existente |   |
+| Rua | Caixa de Texto | Rua existente |   |
+| Número | Caixa de Texto | Mínimo 1 dígito |   |
+| Capacidade de pessoas | Número | Minimo 1 dígito |   |
+| Tamanho do local | Número | Minimo 2 dígitos |   |
+| Banheiros | Numero | Mínimo 1 dígito |   |
+| Fotos | Imagem | Mínimo 1 imagem |   |
+| Dias disponíveis | Múltipla escolha | Minimo 1 seleção |   |
+| Cadastrar | Botão | alt: "Confirmar cadastro" |   |
+
 
 #### Processo 3 – CADASTRAMENTO DO STAFF
 
