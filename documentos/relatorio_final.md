@@ -173,20 +173,22 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 **Preenchimento dos dados da residência**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| **Campo** |    **Tipo**    |   **Restrições**   | **Valor default** |
 | --- | --- | --- | --- |
 | CEP | Caixa de Texto | 8 dígitos |  |
 | Estado | Caixa de Texto | Estado existente |   |
 | Cidade| Caixa de Texto | Cidade existente|   |
 | Bairro  | Caixa de Texto | Bairro existente |   |
 | Rua | Caixa de Texto | Rua existente |   |
-| Número | Caixa de Texto | Mínimo 1 dígito |   |
-| Capacidade de pessoas | Número | Minimo 1 dígito |   |
-| Tamanho do local | Número | Minimo 2 dígitos |   |
-| Banheiros | Numero | Mínimo 1 dígito |   |
+| Número | Caixa de Texto | Número |   |
+| Capacidade de pessoas |  Caixa de Texto | Número  |   |
+| Tamanho do local |  Caixa de Texto| Número  |   |
+| Banheiros |  Caixa de Texto| Número  |   |
 | Fotos | Imagem | Mínimo 1 imagem |   |
 | Dias disponíveis | Múltipla escolha | Minimo 1 seleção |   |
 | Cadastrar | Botão | alt: "Confirmar cadastro" |   |
+
+
 
 
 #### Processo 3 – CADASTRAMENTO DO STAFF
