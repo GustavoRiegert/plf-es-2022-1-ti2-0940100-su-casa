@@ -148,16 +148,19 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – CADASTRO DE USUÁRIO
 
-**Nome da atividade 1**
+**Criação de usuário**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Nome Completo | Caixa de Texto |  |  |
+| Email | Caixa de Texto | formato de e-mail |  |
+| Senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Confirmar Senha | Caixa de Texto | Ser igual à senha |   |
+| Telefone | Caixa de Texto | formato de número |   |
+| Tipo de usuário | Múltipla Escolha | Opções | Locatário |
+| Cadastrar | Botão |  |   |
 
 **Nome da atividade 2**
 
