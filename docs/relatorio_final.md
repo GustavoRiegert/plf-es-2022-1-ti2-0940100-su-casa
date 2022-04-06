@@ -119,7 +119,8 @@ Através desse processo o locatário ira registrar sua residência informando o 
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
-![CADSTAFF](https://user-images.githubusercontent.com/68079428/160905314-405378b7-71b8-47ce-80f5-e07dfd2b51b3.png)
+![CADSTAFF drawio (1)](https://user-images.githubusercontent.com/68079428/161987064-cdd7c6c7-3867-4869-af98-9f7d7d4560ed.png)
+
 
 ### 3.3.4 Processo 4 – SERVIÇO DE AGENDAMENTO
 
@@ -130,7 +131,8 @@ No serviço de agendamento o usuário vai negociar diretamente com os personagen
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
-![CANCELAMENTO](https://user-images.githubusercontent.com/68079428/160905422-3a3cc908-e12b-42cf-9fb3-5ab0dfe10271.png)
+
+![CANCELAMENTO drawio](https://user-images.githubusercontent.com/68079428/161986992-f9177f3b-7889-416f-bbd5-ff6718597ce9.png)
 
 
 ### 3.3.6 Processo 6 – AVALIAÇÃO DO SISTEMA
