@@ -149,6 +149,8 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 **Nome da atividade 1**
 **Criação de usuário**
 
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Nome Completo | Caixa de Texto |  |  |
 | Email | Caixa de Texto | formato de e-mail |  |
 | Senha | Caixa de Texto | mínimo de 8 caracteres |   |
