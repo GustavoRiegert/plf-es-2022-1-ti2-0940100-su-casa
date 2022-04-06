@@ -256,7 +256,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| [Solicitação de Cancelamento] | [Múltipla escolha,Tabela] |  |  |
 | Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
 | Salvar pedido de cancelamento | Botão | alt: "Confirmar cancelamento" |   |
 
