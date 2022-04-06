@@ -180,6 +180,28 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     | 
 
+#### Processo 4 – Serviço de agendamento 
+
+**Seleção de horário**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Realizar reserva] | [Data] |  |  |
+| ***Exemplo:***  |    |     |
+| Reserva do dia | Data  | Seleção em um calendáro virtual |  |
+| Seleção da hora | Hora | Entre os horários disponibilizados pelo locátario |   |
+
+
+**Seleção de Staff**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Reserva Staff] | [Tabela] |  |  |
+| ***Exemplo:***  |    |     |
+| Garçons | Seleção única  | Seleção de uma equipe de garços dentro das oferecidas |  |
+| Buffet | Múltipla escolha | Promotor irá selecionar 1(um) ou mais buffets que iram fornecer os serviços durante o evento|   |
+
+
 #### Processo 6 – Avaliação do sistema
 
 **buscar dados**
