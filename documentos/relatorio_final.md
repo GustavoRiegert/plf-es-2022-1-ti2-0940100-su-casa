@@ -144,7 +144,19 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 ## 4. Projeto da Solução
 
-#### Processo 1– Cadastro de residência
+#### Processo 1 – CADASTRO DE USUÁRIO
+
+**Nome da atividade 1**
+**Criação de usuário**
+
+| Nome Completo | Caixa de Texto |  |  |
+| Email | Caixa de Texto | formato de e-mail |  |
+| Senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Confirmar Senha | Caixa de Texto | Ser igual à senha |   |
+| Telefone | Caixa de Texto | formato de número |   |
+| Tipo de usuário | Múltipla Escolha | Opções | Locatário |
+| Cadastrar | Botão |  |   |
+#### Processo 2– Cadastro de residência
 
 **Preenchimento dos dados da residência**
 
@@ -166,7 +178,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 
 
-#### Processo 2 – CADASTRAMENTO DO STAFF
+#### Processo 3 – CADASTRAMENTO DO STAFF
 
 **Preenchimento de dados**
 
@@ -188,7 +200,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Salvar | Botão | alt: "Confirmar cadastro" |   |
 
 
-#### Processo 3 – Serviço de agendamento 
+#### Processo 4 – Serviço de agendamento 
 
 **Seleção de horário**
 
@@ -210,7 +222,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Buffet | Múltipla escolha | Promotor irá selecionar 1(um) ou mais buffets que iram fornecer os serviços durante o evento|   |
 
 
-#### Processo 4 – Avaliação do sistema
+#### Processo 5 – Avaliação do sistema
 
 **buscar dados**
 
@@ -234,7 +246,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 |    |    |     | 
 
 
-#### Processo 5 – CANCELAMENTO DO AGENDAMENTO
+#### Processo 6 – CANCELAMENTO DO AGENDAMENTO
 
 **Solicitação de Cancelamento**
 
