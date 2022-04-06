@@ -144,32 +144,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 ## 4. Projeto da Solução
 
-### 4.1. Detalhamento das atividades
-
-Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
-
-#### Processo 1 – CADASTRO DE USUÁRIO
-
-**Criação de usuário**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Nome Completo | Caixa de Texto |  |  |
-| Email | Caixa de Texto | formato de e-mail |  |
-| Senha | Caixa de Texto | mínimo de 8 caracteres |   |
-| Confirmar Senha | Caixa de Texto | Ser igual à senha |   |
-| Telefone | Caixa de Texto | formato de número |   |
-| Tipo de usuário | Múltipla Escolha | Opções | Locatário |
-| Cadastrar | Botão |  |   |
-
-**Nome da atividade 2**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-#### Processo 2 – Cadastro de residência
+#### Processo 1– Cadastro de residência
 
 **Preenchimento dos dados da residência**
 
@@ -191,7 +166,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 
 
-#### Processo 3 – CADASTRAMENTO DO STAFF
+#### Processo 2 – CADASTRAMENTO DO STAFF
 
 **Preenchimento de dados**
 
@@ -213,7 +188,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Salvar | Botão | alt: "Confirmar cadastro" |   |
 
 
-#### Processo 4 – Serviço de agendamento 
+#### Processo 3 – Serviço de agendamento 
 
 **Seleção de horário**
 
@@ -235,7 +210,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Buffet | Múltipla escolha | Promotor irá selecionar 1(um) ou mais buffets que iram fornecer os serviços durante o evento|   |
 
 
-#### Processo 5 – Avaliação do sistema
+#### Processo 4 – Avaliação do sistema
 
 **buscar dados**
 
@@ -259,7 +234,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |    |    |     | 
 
 
-#### Processo 6 – CANCELAMENTO DO AGENDAMENTO
+#### Processo 5 – CANCELAMENTO DO AGENDAMENTO
 
 **Solicitação de Cancelamento**
 
