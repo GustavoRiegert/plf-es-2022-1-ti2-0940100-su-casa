@@ -182,6 +182,26 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     | 
 
+#### Processo 3 – CADASTRAMENTO DO STAFF
+
+**Preenchimento de dados**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| [Cadastrar Staff] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link] |  |  |
+| E-mail | Caixa de Texto | formato de e-mail |  |
+| Senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Confirma Senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Nome Completo | Caixa de Texto | mínimo de 8 caracteres |   |
+| Telefone | Caixa de Texto | número |   |
+| Whatsapp | Caixa de Texto | número |   |
+| Tempo de experiência | Caixa de Texto | número |   |
+| Especialidades | Múltipla escolha | opções |   |
+| Currículo | Arquivo | word ou pdf |   |
+| Linkedin | Link | endereço web |   |
+| Disponibilidade | Múltipla escolha | opções |   |
+| Salvar | Botão | alt: "Confirmar cadastro" |   |
+
+
 #### Processo 4 – Serviço de agendamento 
 
 **Seleção de horário**
@@ -204,7 +224,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Buffet | Múltipla escolha | Promotor irá selecionar 1(um) ou mais buffets que iram fornecer os serviços durante o evento|   |
 
 
-#### Processo 6 – Avaliação do sistema
+#### Processo 5 – Avaliação do sistema
 
 **buscar dados**
 
@@ -226,6 +246,18 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | enviar avaliação para o sistema | Data |  |  |
 |    |    |     | 
+
+
+#### Processo 6 – CANCELAMENTO DO AGENDAMENTO
+
+**Solicitação de Cancelamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| ***Exemplo:***  |    |     |
+| Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
+| Salvar pedido de cancelamento | Botão | alt: "Confirmar cancelamento" |   |
+
 
 ### 4.2. Tecnologias
 
