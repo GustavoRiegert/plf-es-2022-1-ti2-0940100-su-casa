@@ -254,14 +254,16 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
 | Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
 | Salvar pedido de cancelamento | Botão | alt: "Confirmar cancelamento" |   |
 
 
 ### 4.2. Tecnologias
 
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+A plataforma Su Casa usará soluções HTML, CSS (Bootstrap) e Javascript para desenvolvimento das aplicações. O banco de dados será PostgreSql, pois tem melhor interação com o servidor que irá hospedar o sistema (REPLIT).
+
+![Capturar](https://user-images.githubusercontent.com/68079428/162002816-41ae52be-6fbf-499b-9bf1-f4d35bd43352.JPG)
+
 
 ## 5. Modelo de dados
 
