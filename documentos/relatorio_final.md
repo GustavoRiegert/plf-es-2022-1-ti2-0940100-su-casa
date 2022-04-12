@@ -195,10 +195,10 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Telefone | Caixa de Texto | número |   |
 | Whatsapp | Caixa de Texto | número |   |
 | Tempo de experiência | Caixa de Texto | número |   |
-| Especialidades | Múltipla escolha | opções |   |
+| Especialidades | Escolha Múltipla | opções |   |
 | Currículo | Arquivo | word ou pdf |   |
 | Linkedin | Link | endereço web |   |
-| Disponibilidade | Múltipla escolha | opções |   |
+| Disponibilidade | Escolha Múltipla | opções |   |
 
 
 #### Processo 4 – Serviço de agendamento 
@@ -254,7 +254,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | [Solicitação de Cancelamento] | [Múltipla escolha,Tabela] |  |  |
-| Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
+| Eventos agendados | Escolha Múltipla | Lista de eventos agendados previamente e ainda não realizados |  |
 | Pedir reembolso | Seleção única | Permitir ao usuário solicitar reembolso |   |
 
 
