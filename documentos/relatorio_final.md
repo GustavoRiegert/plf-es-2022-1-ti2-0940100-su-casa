@@ -139,7 +139,7 @@ Através desse processo o usuário Promotor de Eventos conseguirá cancelar o ev
 
 A avaliação do sistema é realizada pelo usuário, no caso, promotor de eventos. Ela pode ser feita a partir da realização do login pelo usuário.
 
-![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/avalia%C3%A7%C3%A3o_sistema_corrigida.jpg)
+![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/master/docs/imagens/avaliarSistema.png?token=GHSAT0AAAAAABTPWG2PH2SOLYAWKZTO5TNGYSV3LMQ)
 
 
 ## 4. Projeto da Solução
@@ -223,31 +223,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Buffet | Múltipla escolha | Promotor irá selecionar 1(um) ou mais buffets que iram fornecer os serviços durante o evento|   |
 
 
-#### Processo 5 – Avaliação do sistema
-
-**buscar dados**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| buscar dados | Data |  |  |
-|    |    |     | 
-
-**avaliar**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| requerir nota de avaliação | Seleção única | valores de 0 a 5 | 0 |
-|    |    |     | 
-
-**enviar avaliação**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| enviar avaliação para o sistema | Data |  |  |
-|    |    |     | 
-
-
-#### Processo 6 – CANCELAMENTO DO AGENDAMENTO
+#### Processo 5 – CANCELAMENTO DO AGENDAMENTO
 
 **Solicitação de Cancelamento**
 
@@ -256,6 +232,18 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | [Solicitação de Cancelamento] | [Múltipla escolha,Tabela] |  |  |
 | Eventos agendados | Escolha Múltipla | Lista de eventos agendados previamente e ainda não realizados |  |
 | Pedir reembolso | Seleção única | Permitir ao usuário solicitar reembolso |   |
+
+
+#### Processo 6 – Avaliação do sistema
+
+**Avaliar sistema**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nota de avaliação | Multipla Escolha | de 1 a 5 | 1 |
+|  enviar avaliação  |  numero  | de 1 a 5   |  1
+|  registrar valor da avaliação   | numero   |  de 1 a 5   |     |
+
 
 
 ### 4.2. Tecnologias
