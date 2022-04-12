@@ -132,8 +132,7 @@ No serviço de agendamento o usuário vai negociar diretamente com os personagen
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local e dos prestadores de serviço para o dia e horário pré-agendados.
 
-
-![CANCELAMENTO drawio](https://user-images.githubusercontent.com/68079428/161986992-f9177f3b-7889-416f-bbd5-ff6718597ce9.png)
+![CANCELAMENTO drawio (1)](https://user-images.githubusercontent.com/68079428/163025500-9fac992d-009f-4681-9cc4-dbf88ea18165.png)
 
 
 ### 3.3.6 Processo 6 – AVALIAÇÃO DO SISTEMA
@@ -256,7 +255,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | --- | --- | --- | --- |
 | [Solicitação de Cancelamento] | [Múltipla escolha,Tabela] |  |  |
 | Eventos agendados | Múltipla escola | Lista de eventos agendados previamente e ainda não realizados |  |
-| Salvar pedido de cancelamento | Botão | alt: "Confirmar cancelamento" |   |
+| Pedir reembolso | Seleção única | Permitir ao usuário solicitar reembolso |   |
 
 
 ### 4.2. Tecnologias
