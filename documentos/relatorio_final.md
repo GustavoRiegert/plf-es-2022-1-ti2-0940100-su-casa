@@ -119,7 +119,8 @@ Através desse processo o locatário ira registrar sua residência informando o 
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
-![CADSTAFF drawio (1)](https://user-images.githubusercontent.com/68079428/161987064-cdd7c6c7-3867-4869-af98-9f7d7d4560ed.png)
+
+![CADSTAFF drawio (2)](https://user-images.githubusercontent.com/68079428/163024877-0f343ff3-e2d8-4ac1-bc12-da5e4b3b4fb7.png)
 
 
 ### 3.3.4 Processo 4 – SERVIÇO DE AGENDAMENTO
@@ -186,7 +187,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Cadastrar Staff] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link] |  |  |
+| [Cadastrar Staff] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Escolha Múltipla, Arquivo, Link] |  |  |
 |    |    |     |
 | E-mail | Caixa de Texto | formato de e-mail |  |
 | Senha | Caixa de Texto | mínimo de 8 caracteres |   |
@@ -199,7 +200,6 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Currículo | Arquivo | word ou pdf |   |
 | Linkedin | Link | endereço web |   |
 | Disponibilidade | Múltipla escolha | opções |   |
-| Salvar | Botão | alt: "Confirmar cadastro" |   |
 
 
 #### Processo 4 – Serviço de agendamento 
