@@ -158,23 +158,33 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Tipo de usuário | Múltipla Escolha | Opções | Locatário |
 
 #### Processo 2– Cadastro de residência
-
-**Preenchimento dos dados da residência**
+**Inserir dados da residência**
 
 | **Campo** |    **Tipo**    |   **Restrições**   | **Valor default** |
 | --- | --- | --- | --- |
-| CEP | Caixa de Texto | 8 dígitos |  |
-| Estado | Caixa de Texto | Estado existente |   |
-| Cidade| Caixa de Texto | Cidade existente|   |
-| Bairro  | Caixa de Texto | Bairro existente |   |
-| Rua | Caixa de Texto | Rua existente |   |
-| Número | Caixa de Texto | Número |   |
-| Capacidade de pessoas |  Caixa de Texto | Número  |   |
-| Tamanho do local |  Caixa de Texto| Número  |   |
-| Banheiros |  Caixa de Texto| Número  |   |
+| CEP | Caixa de Texto | Mínimo de 8 caracteres |  |
+| Estado | Seleção única |  |   |
+| Cidade| Caixa de Texto | |   |
+| Endereço | Caixa de Texto | |   |
+| Rua | Caixa de Texto | |   |
+| Número | Caixa de Texto | Formato de número |   |
+
+**Detalhes do local**
+
+| **Campo** |    **Tipo**    |   **Restrições**   | **Valor default** |
+| --- | --- | --- | --- |
+| Capacidade de pessoas |  Caixa de Texto | Formato de número  |   |
+| Tamanho do local |  Caixa de Texto | Formato de número  |   |
+| Banheiros |  Caixa de Texto| Formato de número  |   |
 | Fotos | Imagem | Mínimo 1 imagem |   |
-| Dias disponíveis | Múltipla escolha | Minimo 1 seleção |   |
-| Cadastrar | Botão | alt: "Confirmar cadastro" |   |
+
+**Detalhes para locação**
+
+| **Campo** |    **Tipo**    |   **Restrições**   | **Valor default** |
+| --- | --- | --- | --- |
+| Dias disponíveis |    Múltipla escolha    | Mínimo 1 seleção |   |
+| Valor da locação |    Caixa de texto    | Formato de número|   |
+| Cadastrar | Botão | |   |
 
 
 
