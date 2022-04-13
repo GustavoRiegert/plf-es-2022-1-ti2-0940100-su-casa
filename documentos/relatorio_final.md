@@ -146,7 +146,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 #### Processo 1 – CADASTRO DE USUÁRIO
 
-**Cadastro de usuário**
+**Insere dados pessoais**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
