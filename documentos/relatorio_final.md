@@ -126,7 +126,7 @@ Através desse processo de cadastramento do staff é que ocorre a inserção dos
 ### 3.3.4 Processo 4 – SERVIÇO DE AGENDAMENTO
 
 No serviço de agendamento o usuário vai negociar diretamente com os personagens do evento, tendo a liberdade e a facilidade pra selecionar o melhor horário, locação e staff que o locatário disponibilizar no Su Casa. Dessa forma o evento e o staff ficaram reservados previamente até que seja realizado ou o usuário(locatário/promotor) realizem o cancelamento.
-![Modelo do processo do serviço de atendimento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/Servi%C3%A7oDeAgendamento_TIS2.drawio%20(1).png)
+![Modelo do processo do serviço de atendimento](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/Servi%C3%A7oDeAgendamento_TIS2.drawio%20(1).drawio.png)
 
 ### 3.3.5 Processo 5 – CANCELAMENTO DO AGENDAMENTO
 
@@ -257,7 +257,7 @@ A plataforma Su Casa usará soluções HTML, CSS (Bootstrap) e Javascript para d
 
 Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
+![Diagrama de Entidade Relacionamento de Exemplo](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/ModeloSuCas.drawio.png)
 
 ## 6. Indicadores de desempenho
 
