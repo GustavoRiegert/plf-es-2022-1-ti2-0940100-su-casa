@@ -139,7 +139,7 @@ Através desse processo o usuário Promotor de Eventos conseguirá cancelar o ev
 
 A avaliação do sistema é realizada pelo usuário, no caso, promotor de eventos. Ela pode ser feita a partir da realização do login pelo usuário.
 
-![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/master/docs/imagens/avaliarSistema.png?token=GHSAT0AAAAAABTPWG2PH2SOLYAWKZTO5TNGYSV3LMQ)
+![image](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/avalia%C3%A7%C3%A3o_sistema_corrigida.jpg)
 
 
 ## 4. Projeto da Solução
