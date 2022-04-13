@@ -146,8 +146,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 #### Processo 1 – CADASTRO DE USUÁRIO
 
-**Nome da atividade 1**
-**Criação de usuário**
+**Cadastro de usuário**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
@@ -157,7 +156,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Confirmar Senha | Caixa de Texto | Ser igual à senha |   |
 | Telefone | Caixa de Texto | formato de número |   |
 | Tipo de usuário | Múltipla Escolha | Opções | Locatário |
-| Cadastrar | Botão |  |   |
+
 #### Processo 2– Cadastro de residência
 
 **Preenchimento dos dados da residência**
