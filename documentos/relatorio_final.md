@@ -204,10 +204,12 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Telefone | Caixa de Texto | número |   |
 | Whatsapp | Caixa de Texto | número |   |
 | Tempo de experiência | Caixa de Texto | número |   |
+| Tipo de serviço | Escolha Múltipla | opções |   |
 | Especialidades | Escolha Múltipla | opções |   |
 | Currículo | Arquivo | word ou pdf |   |
 | Linkedin | Link | endereço web |   |
 | Disponibilidade | Escolha Múltipla | opções |   |
+| Custo da diária | Caixa de Texto | mínimo de 8 caracteres |   |
 
 
 #### Processo 4 – Serviço de agendamento 
