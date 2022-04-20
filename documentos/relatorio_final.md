@@ -197,6 +197,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | --- | --- | --- | --- |
 | [Cadastrar Staff] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Escolha Múltipla, Arquivo, Link] |  |  |
 |    |    |     |
+| Código único | Caixa de Texto | mínimo de 8 caracteres |   |
 | E-mail | Caixa de Texto | formato de e-mail |  |
 | Senha | Caixa de Texto | mínimo de 8 caracteres |   |
 | Confirma Senha | Caixa de Texto | mínimo de 8 caracteres |   |
