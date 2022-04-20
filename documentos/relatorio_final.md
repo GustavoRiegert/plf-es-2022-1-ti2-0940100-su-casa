@@ -115,7 +115,7 @@ Através desse processo o usuário poderá ser cadastrado, assim que o sistema g
 Através desse processo o locatário ira registrar sua residência informando o valor cobrado, os horários disponíveis, a lotação maxima e a disponibilidade da casa para eventos internos e/ou externos. Dessa forma o promoter durante o processo de agendamento terá as informações necessárias para realizar seu evento que foram fornecidas neste cadastro
 
 ![CadastroResidência](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/cadastro-de-resid%C3%AAncia.png)
-### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF
+### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF (PRESTADOR DE SERVIÇO)
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
