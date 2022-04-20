@@ -272,7 +272,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 A plataforma Su Casa usará soluções HTML e CSS (Bootstrap) para desenvolvimento das aplicações. O banco de dados será PostgreSql, pois tem melhor interação com o servidor que irá hospedar o sistema (REPLIT) e o backend será desenvolvido em node.js.
 
 
-![server](https://user-images.githubusercontent.com/68079428/164294866-d876a0ca-a185-435c-9bd2-a7cda9c4c5b7.JPG)
+![server](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/Untitled%20Diagram.drawio.png)
 
 
 ## 5. Modelo de dados
