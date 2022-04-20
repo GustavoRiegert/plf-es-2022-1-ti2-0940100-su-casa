@@ -218,8 +218,7 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 |    |    |     |
 | Código do evento | Caixa de Texto | mínimo de 8 caracteres |   |
 | Código do prestador de serviço | Caixa de Texto |  mínimo de 8 caracteres |  |
-| Tipo de serviço | Escolha Múltipla | opções |   |
-| Especialidades | Escolha Múltipla | opções |   |
+
 
 
 #### Processo 4 – Serviço de agendamento 
