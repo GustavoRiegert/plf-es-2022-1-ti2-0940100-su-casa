@@ -212,6 +212,16 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | Custo da diária | Caixa de Texto | mínimo de 8 caracteres |   |
 
 
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Formação de equipes] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Escolha Múltipla, Arquivo, Link] |  |  |
+|    |    |     |
+| Código do evento | Caixa de Texto | mínimo de 8 caracteres |   |
+| Código do prestador de serviço | Caixa de Texto |  mínimo de 8 caracteres |  |
+| Tipo de serviço | Escolha Múltipla | opções |   |
+| Especialidades | Escolha Múltipla | opções |   |
+
+
 #### Processo 4 – Serviço de agendamento 
 
 **Seleção de horário**
