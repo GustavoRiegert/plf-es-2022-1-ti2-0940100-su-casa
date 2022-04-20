@@ -259,9 +259,10 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 ### 4.2. Tecnologias
 
-A plataforma Su Casa usará soluções HTML, CSS (Bootstrap) e Javascript para desenvolvimento das aplicações. O banco de dados será PostgreSql, pois tem melhor interação com o servidor que irá hospedar o sistema (REPLIT).
+A plataforma Su Casa usará soluções HTML e CSS (Bootstrap) para desenvolvimento das aplicações. O banco de dados será PostgreSql, pois tem melhor interação com o servidor que irá hospedar o sistema (REPLIT) e o backend será desenvolvido em node.js.
 
-![Capturar](https://user-images.githubusercontent.com/68079428/162002816-41ae52be-6fbf-499b-9bf1-f4d35bd43352.JPG)
+
+![server](https://user-images.githubusercontent.com/68079428/164294866-d876a0ca-a185-435c-9bd2-a7cda9c4c5b7.JPG)
 
 
 ## 5. Modelo de dados
