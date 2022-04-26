@@ -117,7 +117,7 @@ Através desse processo o locatário ira registrar sua residência informando o 
 ![CadastroResidência](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-1-ti2-0940100-su-casa/blob/master/docs/imagens/cadastro-de-resid%C3%AAncia.png)
 ### 3.3.3 Processo 3 – CADASTRAMENTO DO STAFF (PRESTADOR DE SERVIÇO)
 
-Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário individual que é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
+Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário com dados de seus serviços e equipe. Estee é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
 
 ![CADSTAFF drawio (2)](https://user-images.githubusercontent.com/68079428/163024877-0f343ff3-e2d8-4ac1-bc12-da5e4b3b4fb7.png)
