@@ -119,8 +119,7 @@ Através desse processo o locatário ira registrar sua residência informando o 
 
 Através desse processo de cadastramento do staff é que ocorre a inserção dos prestadores de serviço no sistema. Desta forma, cada usuário preenche um formulário com dados de seus serviços e equipe. Estee é submetido para aprovação do administrador - no caso, o proprietário do imóvel. Caso haja alguma pendência, esta é informada ao usuário que deverá reiniciar o cadastramento. Caso contrário, o usuário é informado que seu cadastrado foi realizado com sucesso.
 
-
-![CADSTAFF drawio (2)](https://user-images.githubusercontent.com/68079428/163024877-0f343ff3-e2d8-4ac1-bc12-da5e4b3b4fb7.png)
+![CADSTAFF drawio (3)](https://user-images.githubusercontent.com/68079428/165407737-0f30fed0-a1d0-4dd1-b436-d7c30cb8af57.png)
 
 
 ### 3.3.4 Processo 4 – SERVIÇO DE AGENDAMENTO
