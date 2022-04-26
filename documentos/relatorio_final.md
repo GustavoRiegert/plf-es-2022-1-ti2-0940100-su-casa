@@ -131,7 +131,7 @@ No serviço de agendamento o usuário vai negociar diretamente com os personagen
 
 Através desse processo o usuário Promotor de Eventos conseguirá cancelar o evento já agendado. O processo envolve a comunicação do cancelamento aos usuários Staff que estavam agendados para o evento, assim como para proprietário do imóvel (Administrador) - reabrindo a disponibilidade do local para o dia e horário pré-agendados.
 
-![CANCELAMENTO drawio (2)](https://user-images.githubusercontent.com/68079428/165408434-8927fa80-85c3-4976-9a48-20490e165ed7.png)
+![CANCELAMENTO drawio (3)](https://user-images.githubusercontent.com/68079428/165408708-83e41a2f-5edc-40ca-8dba-f648f60c1484.png)
 
 
 ### 3.3.6 Processo 6 – AVALIAÇÃO DO SISTEMA
@@ -187,7 +187,6 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 
 
 
-
 #### Processo 3 – CADASTRAMENTO DO STAFF
 
 **Preenchimento de dados**
@@ -200,24 +199,14 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | E-mail | Caixa de Texto | formato de e-mail |  |
 | Senha | Caixa de Texto | mínimo de 8 caracteres |   |
 | Confirma Senha | Caixa de Texto | mínimo de 8 caracteres |   |
-| Nome Completo | Caixa de Texto | mínimo de 8 caracteres |   |
+| Nome | Caixa de Texto | mínimo de 8 caracteres |   |
 | Telefone | Caixa de Texto | número |   |
 | Whatsapp | Caixa de Texto | número |   |
-| Tempo de experiência | Caixa de Texto | número |   |
 | Tipo de serviço | Escolha Múltipla | opções |   |
-| Especialidades | Escolha Múltipla | opções |   |
-| Currículo | Arquivo | word ou pdf |   |
-| Linkedin | Link | endereço web |   |
-| Disponibilidade | Escolha Múltipla | opções |   |
-| Custo da diária | Caixa de Texto | mínimo de 8 caracteres |   |
-
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Formação de equipes] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Escolha Múltipla, Arquivo, Link] |  |  |
-|    |    |     |
-| Código do evento | Caixa de Texto | mínimo de 8 caracteres |   |
-| Código do prestador de serviço | Caixa de Texto |  mínimo de 8 caracteres |  |
+| Descrição do serviço | Caixa de Texto | mínimo de 8 caracteres |   |
+| Custo por convidado | Caixa de Texto | mínimo de 8 caracteres |   |
+| Número mínimo de convidados | Caixa de Texto | número |   |
+| Número máximo de convidados | Caixa de Texto | número |   |
 
 
 
