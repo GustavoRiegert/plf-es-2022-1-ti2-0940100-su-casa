@@ -81,7 +81,7 @@ O promotor de eventos é o usuário que irá realizar o agendamento do espaço e
 
 **Staff**
 
-O staff é formado por usuários que prestarão serviço no evento. Desta forma, refere-se a garçons, restaurantes, buffets, cozinheiras, músicos etc.
+O staff é formado pelo prestador de serviço que for contratado para o evento. Desta forma, refere-se a uma equipe que pode ser formada por garçons, restaurantes, buffets, cozinheiras, músicos etc.
 
 ## 3. Modelagem do processo de negócio
 
