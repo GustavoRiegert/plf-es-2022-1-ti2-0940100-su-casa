@@ -183,7 +183,6 @@ A avaliação do sistema é realizada pelo usuário, no caso, promotor de evento
 | --- | --- | --- | --- |
 | Dias disponíveis |    Múltipla escolha    | Mínimo 1 seleção |   |
 | Valor da locação |    Caixa de texto    | Formato de número|   |
-| Cadastrar | Botão | |   |
 
 
 
