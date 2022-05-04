@@ -276,9 +276,9 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Percentual reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total atendimento |   | Tabela reclamações | Aprendizado e Crescimento |
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | ![\frac{\sum{atendidas}}{\sum{requisicoes}}100](https://latex.codecogs.com/svg.latex?\frac{\sum{atendidas}}{\sum{requisicoes}}100) | Tabela solicitações | Processos internos |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
+| Taxa de Satisfação | Avaliar quantitativamente a satisfação dos usuários | Mede a quantidade média de avaliações | Média das avaliações totais   | Tabela de Avaliações | Feedback e melhorias |
+| Número de conversão | Avaliar quantitativamente a taxa de conversão de clientes | Mede a quantidade de visitas que realizaram a locação do local | Quantidade de locações dividido pela quantidade de visitas | Dados do servidor e dados da Tabela de Eventos | Melhorias e crescimento |
+| Taxa de cancelamento | Avaliar quantitativamente a taxa de cancelamento de eventos já agendados | Mede a quantidade de eventos cancelados no mês | Quantidade de eventos cancelados dividido pela quantidade de eventos realizados no mês  | Tabela de Eventos | Aprendizado e previsão |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
