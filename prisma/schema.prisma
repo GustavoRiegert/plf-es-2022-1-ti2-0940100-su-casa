@@ -1,0 +1,83 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String    @id @default(uuid())
+  email       String    @unique
+  username    String    @unique
+  password    String
+  name        String?
+  role        Role
+  property    Property[]
+  event       Event[]
+  staff       Staff?    @relation(fields:[staffId], references: [id])
+  staffId     String?
+}
+
+model Property {
+  id            String  @id @default(uuid())
+  owner         User    @relation(fields: [ownerId], references: [id])
+  ownerId       String
+  availability  DateTime
+  description   String?
+  price         Int
+  propertySize  Int
+  address       String  @unique()
+  event         Event[]
+  evaluation    Evaluation[]
+}
+
+model Staff {
+  id         String     @id @default(uuid())
+  worker     User[]         
+  price      Int 
+  name       String     @unique
+  numWorkers Int?
+  Event      Event[]
+}
+
+model Event {
+  id          String  @id @default(uuid())
+  staff       Staff[]
+  promoter    User    @relation(fields: [promoterId], references: [id])
+  promoterId  String
+  property    Property @relation(fields: [propertyId], references: [id])
+  propertyId  String
+  duration    Int
+  numGuests   Int
+  assignedAt  DateTime
+  payment     Payment
+  evaluation  Evaluation?
+}
+
+model Evaluation {
+  id          String  @id @default(uuid())
+  event       Event   @relation(fields: [eventId], references: [id])  
+  eventId     String
+  property    Property @relation(fields: [propertyId],references:[id])
+  propertyId  String
+  grade       Int
+}
+
+enum Role {
+  OWNER
+  PROMOTER
+  STAFF
+}
+
+enum Payment {
+  DEBIT
+  CREDIT
+  PIX
+  TICKET
+  IN_CASH
+}
