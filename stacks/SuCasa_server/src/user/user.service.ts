@@ -4,6 +4,9 @@ import { CreateUserDto } from './dto/create-user.dto';
 import * as bcrypt from 'bcrypt';
 @Injectable()
 export class UserService {
+  isRunning() {
+    console.log('isRunning')
+  }
   constructor(private readonly prisma: PrismaService) {}
 
   async create(createUserDto: CreateUserDto) {
