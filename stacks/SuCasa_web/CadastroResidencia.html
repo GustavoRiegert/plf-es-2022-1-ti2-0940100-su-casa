@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR RESIDÊNCIA</title>
+    <!----boodstrap---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!------CSS------>
+    <link rel="stylesheet" href="CadResidencia.css">
+
+</head>
+     <!-- Adicionando Javascript -->
+     <script>
+        function meu_callback(conteudo) {
+            if (!("erro" in conteudo)) {
+                //Atualiza os campos com os valores.
+                document.getElementById('rua').value=(conteudo.logradouro);
+                document.getElementById('bairro').value=(conteudo.bairro);
+                document.getElementById('cidade').value=(conteudo.localidade);
+                document.getElementById('uf').value=(conteudo.uf);
+              
+            } 
+            else {
+                //CEP não Encontrado.
+                limpa_formulário_cep();
+                alert("CEP não encontrado.");
+            }
+        }
+            
+        function pesquisacep(valor) {
+    
+            //Nova variável "cep" somente com dígitos.
+            var cep = valor.replace(/\D/g, '');
+    
+            //Verifica se campo cep possui valor informado.
+            if (cep != "") {
+    
+                //Expressão regular para validar o CEP.
+                var validacep = /^[0-9]{8}$/;
+    
+                //Valida o formato do CEP.
+                if(validacep.test(cep)) {
+    
+                    //Preenche os campos com "..." enquanto consulta webservice.
+                    document.getElementById('rua').value="...";
+                    document.getElementById('bairro').value="...";
+                    document.getElementById('cidade').value="...";
+                    document.getElementById('uf').value="...";
+    
+                    //Cria um elemento javascript.
+                    var script = document.createElement('script');
+    
+                    //Sincroniza com o callback.
+                    script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
+    
+                    //Insere script no documento e carrega o conteúdo.
+                    document.body.appendChild(script);
+    
+                } 
+                else {
+                    //cep inválido.
+                    limpa_formulário_cep();
+                    alert("Formato de CEP inválido.");
+                }
+            }
+            else {
+                //cep sem valor, limpa formulário.
+                limpa_formulário_cep();
+            }
+        };
+    
+        </script>
+        </head>
+
+<!------------------------------------------------------------------>
+         <!--Cabeçalho-->
+        <header>
+            <img src="logo.jpg" height="50">
+        
+        </header>
+        
+<!------------------------------------------------------------------>
+        <body>
+            <!-- Formulario de cadastro -->
+             <!--Informações de endereço-->
+            <form class="row g-2">
+                <div class="col-12">
+                <h3>CADASTRO DA RESIDÊNCIA</h3>
+                </div>
+                <div class="col-12">
+                    <h5>Informações de endereço</h5>
+                    </div>
+                
+                <div class="col-2">
+                    <label for="inputCep" class="form-label">CEP:</label>
+                    <input name="cep" type="text" class="form-control" id="cep" placeholder="12345-678" maxlength="9"
+                    onblur="pesquisacep(this.value);"> 
+                </div>
+                <div class="col-1">
+                    <label for="inputUf" class="form-label">Estado:</label>
+                    <input name="uf" type="text" class="form-control" id="uf" placeholder="UF" maxlength="9"
+                    onblur="pesquisacep(this.value);"> 
+                </div>
+                <div class="col-9">
+                  <label for="inputRua" class="form-label">Rua</label>
+                  <input name="rua" type="text" class="form-control" id="rua" placeholder="Rua exemplo...">
+                </div>
+                
+                <div class="col-md-5">
+                  <label for="inputCidade" class="form-label">Cidade</label>
+                  <input name="cidade" type="text" class="form-control" id="cidade" placeholder="Cidade exemplo...">
+                </div>
+                <div class="col-md-5">
+                    <label for="inputBairro" class="form-label">Bairro</label>
+                    <input  name="bairro" type="text" class="form-control" id="bairro" placeholder="Bairro exemplo...">
+                </div>
+                <div class="col-md-2">
+                    <label for="inputBairro" class="form-label">Número:</label>
+                    <input  name="bairro" type="text" class="form-control" id="bairro" placeholder="00">
+                </div>
+
+                <!--informações da residencia-->
+                <div class="col-md-12">
+                    <h5>Informações da residência</h5>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputCapacidade" class="form-label">Capacidade MAX de pessoas:</label>
+                    <input  name="capacidade" type="text" class="form-control" id="capacidade" placeholder="00">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputTamanho" class="form-label">Tamanho do local:</label>
+                    <input  name="bairro" type="text" class="form-control" id="capacidade" placeholder="00">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputBanheiro" class="form-label">Número de  banheiro:</label>
+                    <input  name="banheiro" type="text" class="form-control" id="banheiro" placeholder="00">
+                </div>
+
+                <!--disponibilidade-->
+                <div class="col-md-12">
+                <h5>Disponibilidade</h5>
+                </div>
+                <div class="col-md-2">
+                    <label>Sábado:
+                        <input name="dias" type="checkbox" id="dias"  /></label>
+                </div>
+                <div class="col-md-2">
+                    <label>Domingo:
+                        <input name="dias" type="checkbox" id="dias"  /></label>
+                </div>
+                <div class="col-md-2">
+                    <label>Segunda-feira:
+                        <input name="dias" type="checkbox" id="dias"  /></label>
+                </div>
+                <div class="col-md-2">
+                    <label>Terça-feira:
+                        <input name="dias" type="checkbox" id="dias"  /></label>
+                </div>
+                <div class="col-md-2">
+                    <label>Quarta-feira:
+                        <input name="dias" type="checkbox" id="dias"  /></label><br />
+                </div>
+                <div class="col-md-2">
+                    <label>Quinta-feira:
+                        <input name="dias" type="checkbox" id="dias"  /></label><br />
+                </div>
+
+              </form>
+              <div class="col-md-2">
+                <label>Sexta-feira:
+                    <input name="dias" type="checkbox" id="dias"  /></label><br />
+            </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-success">Success</button>
+            </div>
+            
+          </form>
+        
+         <!------------------------boodstrap------------------------------------------->
+         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </body>
+</html>
+   
