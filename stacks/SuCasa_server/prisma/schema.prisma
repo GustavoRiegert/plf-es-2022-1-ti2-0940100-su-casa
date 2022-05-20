@@ -13,14 +13,14 @@ datasource db {
 model User {
   id          String    @id @default(uuid())
   email       String    @unique
-  username    String    @unique
   password    String
-  name        String?
+  name        String
+  lastname    String
+  cpf         String
+  phone       String
   role        Role
   property    Property[]
   event       Event[]
-  staff       Staff?    @relation(fields:[staffId], references: [id])
-  staffId     String?
 }
 
 model Property {
@@ -38,16 +38,18 @@ model Property {
 
 model Staff {
   id         String     @id @default(uuid())
-  worker     User[]         
   price      Int 
   name       String     @unique
-  numWorkers Int?
+  numWorkers Int
+  email      String
+  number     String
   Event      Event[]
 }
 
 model Event {
   id          String  @id @default(uuid())
-  staff       Staff[]
+  staff       Staff?   @relation(fields: [staffId], references: [id])
+  staffId     String?
   promoter    User    @relation(fields: [promoterId], references: [id])
   promoterId  String
   property    Property @relation(fields: [propertyId], references: [id])
@@ -56,13 +58,10 @@ model Event {
   numGuests   Int
   assignedAt  DateTime
   payment     Payment
-  evaluation  Evaluation?
 }
 
 model Evaluation {
   id          String  @id @default(uuid())
-  event       Event   @relation(fields: [eventId], references: [id])  
-  eventId     String
   property    Property @relation(fields: [propertyId],references:[id])
   propertyId  String
   grade       Int
