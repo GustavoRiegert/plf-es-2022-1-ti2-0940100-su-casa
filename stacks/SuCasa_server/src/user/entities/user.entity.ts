@@ -5,6 +5,8 @@ export class User {
   email: string;
   password: string;
   name: string;
+  lastname: string;
+  cpf: string;
   phone: string;
   role: Role;
 }
