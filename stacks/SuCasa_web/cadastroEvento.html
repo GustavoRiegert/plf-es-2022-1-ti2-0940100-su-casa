@@ -1,10 +1,139 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR RESIDÊNCIA</title>
+    <!----boodstrap---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!------CSS------>
+    <link rel="stylesheet" href="CadResidencia.css">
+
 </head>
-<body>
-    <img src="images/construcao.gif" alt="Site em construção">
-</body>
+     <!-- Adicionando Javascript -->
+     <script>
+        function meu_callback(conteudo) {
+            if (!("erro" in conteudo)) {
+                //Atualiza os campos com os valores.
+                document.getElementById('convidados').value=(conteudo.convidados);
+                document.getElementById('data').value=(conteudo.data );
+                document.getElementById('serviço').value=(conteudo.serviço);
+                document.getElementById('duração').value=(conteudo.duração);
+              
+            }
+        }
+        function organizafesta(valor) {
+    
+    //Nova variável "user" somente com dígitos.
+    var user = valor.replace(/\D/g, '');
+
+    //Verifica se campo user possui valor informado.
+    if (user != "") {
+
+        //Expressão regular para validar o user.
+        var validauser= /^[0-9]{8}$/;
+
+        //Valida o formato do user.
+        if(validauser.test(user)) {
+
+            //Preenche os campos com "..." enquanto consulta webservice.
+            document.getElementById('convidados').value="...";
+            document.getElementById('data').value="...";
+            document.getElementById('serviço').value="...";
+            document.getElementById('duração').value="...";
+
+            //Cria um elemento javascript.
+            var script = document.createElement('script');
+
+            //Sincroniza com o callback.
+            script.src = 'https://viauser.com.br/ws/'+ user + '/json/?callback=meu_callback';
+
+            //Insere script no documento e carrega o conteúdo.
+            document.body.appendChild(script);
+
+        } 
+        else {
+            //user inválido.
+            limpa_formulário_user();
+            alert("Formato de user inválido.");
+        }
+    }
+    else {
+        //user sem valor, limpa formulário.
+        limpa_formulário_user();
+    }
+};
+            
+      
+        </script>
+        </head>
+
+<!------------------------------------------------------------------>
+         <!--Cabeçalho-->
+        <header>
+            <img src="logo.jpg" height="50">
+        
+        </header>
+        
+<!------------------------------------------------------------------>
+        <body>
+            <form class="row g-2">
+                <div class="col-12">
+                <h3>CADASTRO DO EVENTO </h3>
+                </div>
+                <div class="col-12">
+                    <h5>Informações do usuário</h5>
+                    </div>
+                
+                <div class="col-2">
+                    <label for="inputuser" class="form-label">Nome de usuário</label>
+                    <input name="user" type="text" class="form-control" id="user" placeholder="12345-678" maxlength="9"
+                    onblur="pesquisauser(this.value);"> 
+                </div>
+                <div class="col-1">
+                    <label for="inputUf" class="form-label"></label>
+                    <input name="uf" type="text" class="form-control" id="telefone" placeholder="telefone" maxlength="9"
+                    onblur="pesquisauser(this.value);"> 
+                </div>
+
+                <div class="col-md-12">
+                    <h5>Informações do Evento</h5>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputCapacidade" class="form-label">Numero de convidados:</label>
+                    <input  name="capacidade" type="text" class="form-control" id="capacidade" placeholder="00">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputTamanho" class="form-label">duração</label>
+                    <input  name="bairro" type="text" class="form-control" id="capacidade" placeholder="00">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputBanheiro" class="form-label">Serviço selecionado</label>
+                    <input  name="banheiro" type="text" class="form-control" id="banheiro" placeholder="00">
+                </div>
+
+                <!--disponibilidade-->
+                <div class="col-md-12">
+                <h5>Selecione o dia:</h5>
+                </div>
+                <table>
+                  <tr><th colspan="4">DEZEMBRO</th><th colspan="3">2007</th></tr>
+                  <tr><th>DOM</th><th>SEG</th><th>TER</th><th>QUA</th><th>QUI</th><th>SEX</th><th>SAB</th></tr>
+                  <tr><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td><td> 1</td></tr>
+                  <tr><td> 2</td><td> 3</td><td> 4</td><td> 5</td><td> 6</td><td> 7</td><td> 8</td></tr>
+                  <tr><td> 9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+                  <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+                  <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+                  <tr><td>30</td><td>31</td><td>  </td><td>  </td><td>  </td><td>  </td><td>  </td></tr>
+                  </table>
+          </form>
+        
+         <!------------------------boodstrap------------------------------------------->
+         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        </body>
 </html>
+   

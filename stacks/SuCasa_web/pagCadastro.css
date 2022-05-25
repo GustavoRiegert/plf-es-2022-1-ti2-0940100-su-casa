@@ -1,0 +1,109 @@
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.sobre{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: #9b5b7d;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+
+.imagemex{
+    width: 30rem;
+    border-radius: 5px;
+}
+
+
+
+
+/* CADASTRO CSS*/
+.cadastro{
+    background-color: #f4e9ed;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-login {
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+}
+
+form {
+	margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form legend{
+	margin: 0 5px 10px ;
+	font-size: 20px;
+}
+
+.input-padrao {
+	margin: 0 0 15px;
+	padding: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tipos-usuarios {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.enviar{
+	padding: 15px 20px;
+	background: #9b5b7d;
+	color: #f4e9ed;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 50px;
+	transition: 1s all;
+	cursor: pointer;
+    margin-top: 4rem;
+}
+
+
+@media screen and (max-width: 680px) {
+    .tipos-usuarios {
+        flex-direction: column;
+    }
+
+    .enviar {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 907px) {
+	main {
+		flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+	}
+
+    .sobre, .cadastro {
+        width: 100%;
+    }
+
+    .cadastro {
+        padding: 0 0 5rem;
+    }
+}
