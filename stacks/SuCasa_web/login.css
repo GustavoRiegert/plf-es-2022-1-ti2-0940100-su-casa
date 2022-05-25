@@ -30,7 +30,7 @@ h1{
 
 
 /* CADASTRO CSS*/
-.cadastro{
+.login{
     background-color: #f4e9ed;
     width: 40%;
     display: flex;
@@ -62,9 +62,16 @@ form label, form legend{
     outline: none;
 }
 
-.tipos-usuarios {
-    margin-top: 2rem;
-    display: flex;
+.link-login {
+    text-decoration: none;
+    color: #d1ae6c;
+    font-weight: bold;
+    transition: 0.3s ease all;
+}
+
+.link-login:hover {
+    cursor: pointer;
+    color: #9b5b7d;
 }
 
 .enviar{
@@ -99,11 +106,11 @@ form label, form legend{
         align-items: center;
 	}
 
-    .sobre, .cadastro {
+    .sobre, .login {
         width: 100%;
     }
 
-    .cadastro {
+    .login {
         padding: 0 0 5rem;
     }
 }
