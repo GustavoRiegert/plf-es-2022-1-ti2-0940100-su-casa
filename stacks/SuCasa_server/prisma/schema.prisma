@@ -15,8 +15,6 @@ model User {
   email       String    @unique
   password    String
   name        String
-  lastname    String
-  cpf         String
   phone       String
   role        Role
   property    Property[]
