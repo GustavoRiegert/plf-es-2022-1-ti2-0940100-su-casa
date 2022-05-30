@@ -35,3 +35,6 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+/prisma/migrations/20220520151804_dev_postgres/migration.sql
+/prisma/migrations/20220525184912_cpf_remove/migration.sql
+/package-lock.json
