@@ -5,7 +5,7 @@ import * as bcrypt from 'bcrypt';
 @Injectable()
 export class UserService {
   isRunning() {
-    console.log('isRunning')
+    console.log('isRunning');
   }
   constructor(private readonly prisma: PrismaService) {}
 

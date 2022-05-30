@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,58 +8,58 @@ datasource db {
 }
 
 model User {
-  id          String    @id @default(uuid())
-  email       String    @unique
-  password    String
-  name        String
-  phone       String
-  role        Role
-  property    Property[]
-  event       Event[]
+  id       String     @id @default(uuid())
+  email    String     @unique
+  name     String
+  password String
+  phone    String
+  role     Role
+  event    Event[]
+  property Property[]
 }
 
 model Property {
-  id            String  @id @default(uuid())
-  owner         User    @relation(fields: [ownerId], references: [id])
-  ownerId       String
-  availability  DateTime
-  description   String?
-  price         Int
-  propertySize  Int
-  address       String  @unique()
-  event         Event[]
-  evaluation    Evaluation[]
+  id           String       @id @default(uuid())
+  description  String?
+  address      String       @unique
+  availability DateTime
+  ownerId      String
+  price        Int
+  propertySize Int
+  owner        User         @relation(fields: [ownerId], references: [id])
+  evaluation   Evaluation[]
+  event        Event[]
 }
 
 model Staff {
-  id         String     @id @default(uuid())
-  price      Int 
-  name       String     @unique
-  numWorkers Int
-  email      String
-  number     String
+  id         String  @id @default(uuid())
+  name       String  @unique
+  numWorkers Int?
+  price      Int
   Event      Event[]
 }
 
 model Event {
-  id          String  @id @default(uuid())
-  staff       Staff?   @relation(fields: [staffId], references: [id])
-  staffId     String?
-  promoter    User    @relation(fields: [promoterId], references: [id])
-  promoterId  String
-  property    Property @relation(fields: [propertyId], references: [id])
-  propertyId  String
-  duration    Int
-  numGuests   Int
-  assignedAt  DateTime
-  payment     Payment
+  id         String      @id @default(uuid())
+  duration   Int
+  numGuests  Int
+  payment    Payment
+  assignedAt DateTime
+  promoterId String
+  propertyId String
+  promoter   User        @relation(fields: [promoterId], references: [id])
+  property   Property    @relation(fields: [propertyId], references: [id])
+  Evaluation Evaluation?
+  Staff      Staff[]
 }
 
 model Evaluation {
-  id          String  @id @default(uuid())
-  property    Property @relation(fields: [propertyId],references:[id])
-  propertyId  String
-  grade       Int
+  id         String   @id @default(uuid())
+  eventId    String   @unique
+  propertyId String
+  grade      Int
+  Event      Event    @relation(fields: [eventId], references: [id])
+  property   Property @relation(fields: [propertyId], references: [id])
 }
 
 enum Role {
