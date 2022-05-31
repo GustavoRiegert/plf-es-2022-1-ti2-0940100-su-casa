@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="cadastroStaff.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <title>Cadastro de staff</title>
+</head>
+<body>
+  <main>
+    <div class="entrada">
+      <form action="">
+        <div class="container_select">
+
+          <div class="card">
+            <img src="images/comida_buteco.jpg" alt="#">
+            <label for="comida_buteco">
+                Comida de buteco
+            </label>
+          </div>
+
+          <div class="card">
+            <img src="images/sushi.jpg" alt="#">
+            <label for="sushi">
+              Sushi Bar
+            </label>
+          </div>
+          
+          <div class="card">
+            <img src="images/churrasco.jpg" alt="#">
+            <label for="comida_buteco">
+              Churrasco
+            </label>
+          </div>
+          <div class="card">
+            <img src="images/open_bar.jpg" alt="#">
+            <label for="comida_buteco">
+                Open Bar
+            </label>
+          </div>
+
+         
+
+          <input class="multi-select" type="checkbox" name="comida_buteco" id="comida_buteco">
+          <input class="multi-select" type="checkbox" name="sushi" id="sushi">
+          <input class="multi-select" type="checkbox" name="churrasco" id="churrasco">
+          <input class="multi-select" type="checkbox" name="bar" id="bar">
+
+        </div>
+
+        <div class="entrada_campos">
+          <label for="whatsapp">
+            Whatsapp
+            <input type="tel" name="whatsapp" id="whatsapp">
+          </label>
+          
+          <label for="custo_convidado">
+            Custo por convidado
+            <input type="text" name="custo_convidado" id="custo_convidado">
+          </label>
+
+          <div class="limite">
+            <label for="min_convidados">
+              Minimo de convidados
+              <input type="number" name="min_convidados" id="min_convidados" min="1">
+            </label>
+  
+            <label for="max_convidados">
+              Máximo de convidados
+              <input type="number" name="max_convidados" id="max_convidados">
+            </label>
+          </div>
+
+          <label for="descricao">
+            Descrição do Serviço
+            <textarea name="descricao" id="descricao"></textarea>
+          </label>
+        </div>
+
+        <div class="final">
+          <input type="button" value="Finalizar Cadastro">
+        </div>
+      </form>
+    </div>
+
+    <div class="staff">
+      <h1>Cadastro de staff</h1>
+    </div>
+  </main>
+</body>
+</html>

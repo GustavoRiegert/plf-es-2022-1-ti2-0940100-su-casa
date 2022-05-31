@@ -1,0 +1,169 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.multi-select {
+    display: none;
+}
+
+.container_select {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    background-color: #e2d0d6;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    overflow: hidden;
+}
+
+.card:hover {
+    border-color: #9b5b7d;
+    color: #9b5b7d;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgb(94, 88, 88);
+}
+
+.card > img {
+    height: 100%;
+    width: 100%;
+    max-height: 60%;
+    cursor: pointer;
+}
+
+.card > label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    cursor: pointer;
+}
+
+.entrada {
+    width: 60%;
+    background-color: #f4e9ed;
+    padding: 0.3rem;
+}
+
+.entrada > form {
+    width: 100%;
+}
+
+.staff {
+    width: 40%;
+}
+
+.entrada_campos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.limite {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.limite > label {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label > input {
+    margin-top: 0.4rem;
+    padding: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.entrada_campos > label {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+}
+
+
+.entrada_campos > label > textarea {
+    margin-top: 0.4rem;
+    width: 100%;
+    resize: none;
+    height: 5rem;   
+    padding: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    outline: none;
+}
+
+.final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.final > input {
+    border: none;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.35rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #9b5b7d;
+    transition: all ease 0.4s;
+    outline: none;
+}
+
+.final > input:hover {
+    background-color: #8b4869;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b5b7d;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #e2d0d6;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .staff {
+        display: none;
+    }
+
+    .entrada {
+        width: 100%;
+    }
+}
